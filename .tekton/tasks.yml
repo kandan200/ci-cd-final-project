@@ -5,7 +5,7 @@ metadata:
 
 spec:
   workspaces:
-    name: source
+    - name: source
 
   steps:
     - name: remove
@@ -43,7 +43,7 @@ metadata:
 
 spec:
   workspaces:
-    name: source
+    - name: source
   
   params:
     - name: args
